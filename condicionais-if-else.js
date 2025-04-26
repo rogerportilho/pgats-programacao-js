@@ -1,4 +1,11 @@
 
+if (10 < 5) {
+    console.log('valor é maior')
+  } else {
+    console.log('valor é menor')
+  }
+
+
 const idade = 1
 const porte = 'P'
 
