@@ -24,8 +24,8 @@ jobs:
       - name: Executar Testes Com Sucesso (trabalho-final.js)
         run: npx mocha ./testes/trabalho-final.js
 
-      - name: Executar Teste Com inconsistência (01-testes.js)
-        run: npx mocha ./testes/01-testes.js || echo "Teste com erro concluído - Continuando workflow"
+      - name: Executar Teste Com Inconsistência (01-testes.js)
+        run: npx mocha ./testes/01-testes.js || echo "Teste com inconsistência concluído - Continuando o workflow"
         continue-on-error: true
 
       
